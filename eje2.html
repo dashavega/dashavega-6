@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function tablaDeMultiplicar(valor) {
+   
+    const numeros = Array.from({ length: 10 }, (_, i) => i + 1);
+    
+    console.log(`### Tabla del N°: ${valor} ###`);
+    numeros.forEach(num => {
+        console.log(`${valor} x ${num} = ${valor * num}`);
+    });
+}
+
+tablaDeMultiplicar(7);
+
+    </script>
+</body>
+</html>
